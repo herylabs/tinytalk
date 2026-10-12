@@ -5,6 +5,13 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <unistd.h>
+
+
+/**
+ * recv: Wait action from server (action)
+ * accept: Wait action from client (connection, action)
+ */
+
 int main(int argc, char **argv)
 {
     if (argc != 3) {
